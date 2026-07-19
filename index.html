@@ -1,3 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate Verification</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#eef3f8;
+}
+.container{
+max-width:700px;
+margin:30px auto;
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 15px rgba(0,0,0,.2);
+}
+.logo{
+display:block;
+margin:auto;
+width:120px;
+}
+h1{
+text-align:center;
+color:#003366;
+}
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+td{
+border:1px solid #ddd;
+padding:12px;
+}
+.label{
+font-weight:bold;
+background:#f3f3f3;
+width:40%;
+}
+.status{
+color:green;
+font-weight:bold;
+}
+.qr{
+text-align:center;
+margin-top:25px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo">
+
+<h1>Certificate Verification</h1>
+
 <table>
 
 <tr>
@@ -31,3 +94,12 @@
 </tr>
 
 </table>
+
+<div class="qr">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=NITT001" alt="QR Code">
+</div>
+
+</div>
+
+</body>
+</html>
